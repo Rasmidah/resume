@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <!-- A div with a class container to hold all the resume content -->
+    <div class="container">
+        <!-- A header with name and job title -->
+        <header>
+            <h1> John Smith </h1>
+            <p> Software Developer </p>
+        </header>
+        <!-- A section that contain contact information -->
+        <section class="contact-info">
+            <p> Email: john.smith@gmail.com | Phone: (555) 123-4567 | Location: New York, N </p>
+        </section>
+
+        <!-- a summary section -->
+        <section>
+            <h2> Summary </h2>
+            <p> Experienced software developer with a strong background in web technologies and a passion for creating efficient, scalable application. Skilled in Javascript, Python, and cloud technologies </p>
+        </section>
+
+        <!-- A section that contain the work experience -->
+        <section>
+            <h2> Experience </h2>
+            <div> <!-- removed the class="job" because it is unnecessary. the margin-bottom on the star selector provide the needed space -->
+                <!-- First experience -->
+                <p class="job-title"> Senior Software Developer - Tech Solutions Inc. </p>
+                <p class="job-date"> January 2019 - Present </p>
+                <ul>
+                    <li>Lead development of cloud-based applications using Node.js and AWS </li>
+                    <li> Implemented CI/CD pipelines, improving deployment efficiency by 40% </li>
+                    <li> Mentored junior developers and conducted code reviews </li>
+                </ul>
+
+                <!-- Second work experience-->
+                <p class="job-title"> Software Developer - InnoSoft Corp  </p>
+                <p class="job-date"> June 2016 - December 2018 </p>
+                <ul>
+                    <li> Developed and maintained web applications using React and Djanjo </li>
+                    <li> Optimized database queries, resulting in a 30% improvement in application performance </li>
+                    <li> Collaborated with the UX team to implement responsive design principles </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2> Education </h2>
+            <p class="job-title"> Bachelor of Science in Computer Science  </p>
+            <p> University of Technology, Graduated: May 2016</p>
+        </section>
+
+        <!-- Skills section -->
+        <section>
+            <h2> Skills </h2>
+            <ul>
+                <li class="skills-list"> JavaScript </li>
+                <li class="skills-list"> Python </li>
+                <li class="skills-list"> Node js </li>
+                <li class="skills-list"> React </li>
+                <li class="skills-list"> AWS </li>
+                <li class="skills-list"> Git </li>
+                <li class="skills-list"> SQL </li>
+                <li class="skills-list"> RESTful APIs</li>
+                <li class="skills-list"> Agile Methodologies </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>

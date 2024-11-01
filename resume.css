@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 30px; /* defines how the height and width of element to be calculated */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; 
+    background-color: #f4f4f4; /* lightgray color */
+    margin: 0 auto; /* center the resume  */
+    line-height: 2em;
+    max-width: 50%; /* provide a maximum width to the resume*/
+}
+
+.container{
+    background-color: #fff; /* white color */
+    box-shadow: 10px 10px 5px lightgrey;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 2em;
+    margin: 20px;
+}
+
+.contact-info{
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 2px solid black; /* give a solid horizontal line on below header 2 */
+}
+
+
+.job-title{
+    font-weight: 500px;
+}
+
+.job-date{
+    font-style: italic;
+    color: #666; /* grey color */
+}
+
+Ul{
+    padding: 20px; /* indent the list to the right for better readibility  */
+} 
+
+ul>li{
+    margin: 0; /* to remove the line-height in-between text*/
+}
+
+.skills-list{
+    list-style-type: none;
+}
